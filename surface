@@ -1,0 +1,14 @@
+import math
+
+def calculate_surface_area(radius):
+    """
+    Calculate the surface area of a planet given its radius.
+    
+    Parameters:
+    radius (float): The radius of the planet in kilometers.
+    
+    Returns:
+    float: The surface area of the planet in square kilometers.
+    """
+    surface_area = 4 * math.pi * radius**2
+    return surface_area
